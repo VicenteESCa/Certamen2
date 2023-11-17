@@ -28,9 +28,9 @@ public class libros {
         return librosPUCV;
     }
 
-    public void librosNovela.insertarDatos()
-    librosNovela[0]= new novela.CrearDatos;
-    
+    public void CrearLibros(){
+     librosNovela[0]= new novela.CrearDatos;
+    }
     
     
 }
