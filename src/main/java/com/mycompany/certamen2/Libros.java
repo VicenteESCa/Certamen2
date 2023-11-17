@@ -4,10 +4,33 @@
  */
 package com.mycompany.certamen2;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Estudiante
  */
-public class Libros {
+public class libros {
+    
+    public final ArrayList<novela> librosNovela = new ArrayList<>();
+    public final ArrayList<academico> librosAcademico = new ArrayList<>();
+    public final ArrayList<Pucv> librosPUCV = new ArrayList<>();
+
+    public ArrayList<novela> getLibrosNovela() {
+        return librosNovela;
+    }
+
+    public ArrayList<academico> getLibrosAcademico() {
+        return librosAcademico;
+    }
+
+    public ArrayList<Pucv> getLibrosPUCV() {
+        return librosPUCV;
+    }
+
+    public void librosNovela.insertarDatos()
+    librosNovela[0]= new novela.CrearDatos;
+    
+    
     
 }
