@@ -10,7 +10,10 @@ package com.mycompany.certamen2;
  */
 public class novela extends libro {
     private String tipoNovela;
-
+    private ArrayList<novela> librosNovela = new ArrayList<novela>();
+    
+    librosNovela[0] = novela("asd", "asff", 435, 645);
+    
     public novela(String tipoNovela, String titulo, String autor, int codigo, int precio) {
         super(titulo, autor, codigo, precio);
         this.tipoNovela = tipoNovela;
