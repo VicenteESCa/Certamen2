@@ -50,7 +50,15 @@ public abstract class libro {
         this.precio = precio;
     }
     
-    
+    public libro buscarLibro(ArrayList<libro> libros, int codigoBuscado){
+        for(libro libro : libros){
+            if( codigoBuscado == libro.getCodigo() ){
+                return libro;
+            }
+        }
+        
+        return null;
+    }
     
     
 }
